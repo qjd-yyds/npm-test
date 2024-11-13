@@ -1,0 +1,41 @@
+{
+  "name": "qjd-auto-project",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gulp": "gulp version",
+    "build": "gulp clean && cross-env NODE_ENV=producton rollup -c -m",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it",
+    "commit": "git-cz"
+  },
+  "keywords": [],
+  "author": "eric",
+  "license": "ISC",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^9.0.3",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "cross-env": "^7.0.3",
+    "git-cz": "^4.9.0",
+    "gulp": "^5.0.0",
+    "minimist": "^1.2.8",
+    "release-it": "^17.10.0",
+    "rollup": "^4.26.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "terser": "^5.36.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "fs-extra": "^11.2.0",
+    "normalize.css": "^8.0.1"
+  },
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json"
+  }
+}

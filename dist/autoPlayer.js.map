@@ -1,0 +1,1 @@
+{"version":3,"file":"autoPlayer.js","sources":["../index.js"],"sourcesContent":["export function getTime() {\n    return Date.now();\n}\n"],"names":[],"mappings":";;;;;;;IAAO,SAAS,OAAO,GAAG;IAC1B,IAAI,OAAO,IAAI,CAAC,GAAG,EAAE;IACrB;;;;;;;;"}
