@@ -1,7 +1,12 @@
-// autoPlayer v1.0.0 Copyright (c) 2024 eric and contributors
+// autoPlayer v2.0.0 Copyright (c) 2024 eric and contributors
 function getTime() {
     return Date.now();
 }
 
-export { getTime };
+function getDay() {
+    console.log(2);
+    return new Date().getDay();
+}
+
+export { getDay, getTime };
 //# sourceMappingURL=autoPlayer.js.map
