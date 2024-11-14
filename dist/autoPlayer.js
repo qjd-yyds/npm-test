@@ -1,4 +1,4 @@
-// autoPlayer v2.0.2 Copyright (c) 2024 eric and contributors
+// autoPlayer v2.0.3 Copyright (c) 2024 eric and contributors
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
     typeof define === 'function' && define.amd ? define(['exports'], factory) :

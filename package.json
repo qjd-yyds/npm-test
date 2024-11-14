@@ -1,6 +1,6 @@
 {
   "name": "qjd-auto-project",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -38,7 +38,7 @@
     },
     "hooks": {
       "before:init": "npm run test",
-      "after:bump": "gulp version --bump ${version} && npm run build",
+      "after:bump": "gulp version --bump ${version} && npm run build&& git add .",
       "before:release": "echo \"nihao\"",
       "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
     }

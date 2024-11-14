@@ -1,4 +1,4 @@
-// autoPlayer v2.0.2 Copyright (c) 2024 eric and contributors
+// autoPlayer v2.0.3 Copyright (c) 2024 eric and contributors
 'use strict';
 
 function getTime() {
